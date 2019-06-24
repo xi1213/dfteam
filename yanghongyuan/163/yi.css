@@ -1,0 +1,356 @@
+.header,
+.content,
+.footer {
+    margin: 0 auto;
+}
+
+.header {
+    width: 960px;
+    height: 81px;
+}
+
+.header .logo {
+    display: inline-block;
+    width: 644px;
+    height: 26px;
+    margin-top: 31px;
+    box-sizing: border-box;
+}
+
+.header .logo a {
+    display: inline-block;
+    width: 130px;
+    height: 26px;
+}
+
+header .logo img {
+    float: left;
+}
+
+.header .links {
+    float: right;
+    margin-top: 31px;
+    width: 200px;
+    height: 26px;
+    text-align: right;
+}
+
+.header .links a {
+    font: 13px "黑体";
+    text-decoration: none;
+    color: #003398;
+}
+
+.content {
+    width: 960px;
+    height: 747px;
+}
+
+.content .contentTop {
+    width: 960px;
+    height: 38px;
+    background: url("./image/tit_bg2.jpg") repeat-x;
+}
+
+.contentTop .left {
+    width: 960px;
+    height: 38px;
+}
+
+.contentTop .left .right {
+    width: 960px;
+    height: 38px;
+}
+
+.content .contentTop span {
+    display: block;
+    width: 600px;
+    line-height: 38px;
+    padding-left: 21px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+
+}
+
+.content .contentBottom .article {
+    float: left;
+    width: 644px;
+    height: 709px;
+    background-color: #fdfdfe;
+    padding-left: 77px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    border-top: none;
+}
+
+.content .contentBottom .article .text {
+    text-align: right;
+}
+
+.content .contentBottom .article .articleBottom {
+    width: 565px;
+    height: 546px;
+    padding-left: 27px;
+    box-sizing: border-box;
+}
+
+.content .contentBottom .article .articleBottom .email {
+    width: 422px;
+    height: 69px;
+    padding-top: 20px;
+}
+
+.content .contentBottom .article .articleBottom .email .text {
+    width: 67px;
+    height: 27px;
+    line-height: 27px;
+    float: left;
+    font-size: 14px;
+}
+
+.content .contentBottom .article .articleBottom .email .put {
+    width: 334px;
+    height: 27px;
+    float: right;
+}
+
+.content .contentBottom .article .articleBottom .email .put input,
+select,
+p {
+    height: 24px;
+    color: grey;
+}
+
+.content .contentBottom .article .articleBottom .email .put p {
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.content .contentBottom .article .articleBottom .pw {
+    width: 422px;
+    height: 69px;
+}
+
+.content .contentBottom .article .articleBottom .pw .text {
+    width: 67px;
+    height: 27px;
+    line-height: 27px;
+    float: left;
+    font-size: 14px;
+}
+
+.content .contentBottom .article .articleBottom .pw .put {
+    width: 334px;
+    height: 27px;
+    float: right;
+}
+
+.content .contentBottom .article .articleBottom .pw .put input,
+p {
+    height: 24px;
+    width: 270px;
+    color: grey;
+}
+
+.content .contentBottom .article .articleBottom .pw .put p {
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.content .contentBottom .article .articleBottom .Spw {
+    width: 422px;
+    height: 69px;
+}
+
+.content .contentBottom .article .articleBottom .Spw .text {
+    width: 67px;
+    height: 27px;
+    line-height: 27px;
+    float: left;
+    font-size: 14px;
+}
+
+.content .contentBottom .article .articleBottom .Spw .put {
+    width: 334px;
+    height: 27px;
+    float: right;
+}
+
+.content .contentBottom .article .articleBottom .Spw .put input,
+p {
+    height: 24px;
+    width: 270px;
+    color: grey;
+}
+
+.content .contentBottom .article .articleBottom .Spw .put p {
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.content .contentBottom .article .articleBottom .PhoneNumber {
+    width: 422px;
+    height: 69px;
+}
+
+.content .contentBottom .article .articleBottom .PhoneNumber .text {
+    width: 67px;
+    height: 27px;
+    line-height: 27px;
+
+    float: left;
+    font-size: 14px;
+}
+
+.content .contentBottom .article .articleBottom .PhoneNumber .put {
+    width: 334px;
+    height: 27px;
+
+    float: right;
+}
+
+.content .contentBottom .article .articleBottom .PhoneNumber .put input,
+p {
+    height: 24px;
+    width: 270px;
+    color: grey;
+}
+
+.content .contentBottom .article .articleBottom .PhoneNumber .put p {
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.content .contentBottom .article .articleBottom .GetCode {
+    width: 422px;
+    height: 100px;
+
+}
+
+.content .contentBottom .article .articleBottom .GetCode .text {
+    width: 67px;
+    height: 27px;
+    line-height: 27px;
+    float: left;
+    font-size: 14px;
+}
+
+.content .contentBottom .article .articleBottom .GetCode .put {
+    width: 334px;
+    height: 27px;
+
+    float: right;
+}
+
+.content .contentBottom .article .articleBottom .GetCode .put input,
+p {
+    height: 24px;
+    color: grey;
+}
+
+.content .contentBottom .article .articleBottom .GetCode .put img {
+    display: inline-block;
+    width: 121px;
+    height: 51px;
+}
+
+[type=submit] {
+    width: 120px;
+    height: 50px;
+}
+
+.content .contentBottom .article .articleBottom .GetCode .put p {
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.content .contentBottom .article .articleBottom .code .text {
+    width: 67px;
+    height: 27px;
+    line-height: 27px;
+    float: left;
+    font-size: 14px;
+}
+
+.content .contentBottom .article .articleBottom .code .put {
+    width: 334px;
+    height: 27px;
+    float: right;
+}
+
+.content .contentBottom .article .articleBottom .code .put input,
+p {
+    height: 24px;
+    width: 270px;
+    color: grey;
+}
+
+.content .contentBottom .article .articleBottom .code .put p {
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.content .contentBottom .article .articleBottom .check {
+    padding-top: 10px;
+    margin-left: 88px;
+    box-sizing: border-box;
+}
+
+.content .contentBottom .article .articleBottom .check a {
+    text-decoration: none;
+    color: #003398;
+}
+
+.content .contentBottom .article .articleBottom .ZhuCe {
+    padding-top: 30px;
+    padding-left: 83px;
+    box-sizing: border-box;
+}
+
+.content .contentBottom .article .articleBottom .ZhuCe input[type=submit] {
+    width: 119px;
+    height: 37px;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.content .contentBottom .aside {
+    float: right;
+    width: 316px;
+    height: 709px;
+    background-color: #f4f4f4;
+    padding-top: 106px;
+    padding-left: 45px;
+    box-sizing: border-box;
+
+}
+
+.content .contentBottom .aside .asideImg {
+    width: 241px;
+    height: 326px;
+}
+
+.star {
+    color: red;
+}
+
+.footer {
+    width: 960px;
+    height: 40px;
+}
+
+.footer .FooterText {
+    margin-left: 180px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.footer .FooterText,
+a {
+    text-decoration: none;
+    color: #989898;
+    font-size: 10px;
+}
