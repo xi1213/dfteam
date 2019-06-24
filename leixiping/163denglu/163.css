@@ -1,0 +1,119 @@
+.box {
+    width: 100%;
+}
+
+.box1 {
+    width: 1000px;
+    height: 37px;
+    margin: 0px auto;
+
+}
+
+.b1-1 {
+    float: left;
+    height: 37px;
+
+}
+
+.b1-2 {
+    float: left;
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(197, 192, 192);
+
+}
+
+.b1-3 {
+    float: right;
+
+}
+
+.b1-3 li {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.b1-3 li>a {
+    color: blue;
+    padding: 0px 15px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.box2 {
+    width: 1000px;
+    height: 600px;
+    margin: 0px auto;
+
+}
+
+.b2-1 {
+    background: url(image/tit_bg2.jpg);
+    width: 1000px;
+    height: 46px;
+
+}
+
+.b21-1 img {
+    float: left;
+}
+
+.b21-2 {
+    margin-top: 10px;
+    color: #fff;
+
+}
+
+.b2-2 {
+    float: left;
+    width: 1000px;
+    height: 709px;
+    padding-left: 300px;
+    box-sizing: border-box;
+    background: url(image/input_bg.jpg);
+    border: 1px solid #cccccc;
+    border-top: none;
+}
+
+.text {
+    float: left;
+}
+
+.b22-1 P {
+    font-size: 10px;
+    margin-left: 80px;
+}
+
+.star {
+    color: red
+}
+
+.pw {
+    margin-left: 18px
+}
+
+.Spw {
+    margin-left: -10px
+}
+
+.GetCode {
+    margin-left: 10px
+}
+
+.GetCode .text {
+    float: left;
+    margin-top: 10px
+}
+
+.GetCode img {
+    margin-top: 20px
+}
+
+.GetCode li {
+    float: left;
+}
+
+.GetCode li>a {
+    color: blue;
+    font-size: 10px
+}
