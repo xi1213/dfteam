@@ -1,0 +1,38 @@
+.top-bar {
+    /* border: 1px solid green; */
+    background-image: url("images/body_bg.jpg");
+    height: 40px;
+}
+
+.top-bar-div1 {
+    width: 950px;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 15px;
+}
+
+.top-bar-div1 ul>li {
+    float: left;
+    /* padding: 10px; */
+
+}
+
+.top-bar-div1 ul>li>a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px 5px;
+    margin: 2px;
+}
+
+.top-bar-div1 ul>li>a:hover {
+    background: white;
+    color: rgb(255, 112, 0);
+}
+
+.logo {
+    position: relative;
+}
+
+.smallWord li>a {
+    font-size: 10px;
+}
