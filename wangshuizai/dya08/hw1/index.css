@@ -1,0 +1,67 @@
+.dv1{
+    width: 100%;
+}
+.dv1>.dv1-dv1{
+    width: 885px;
+    margin: 0 auto; 
+}
+.dv1>.dv1-dv1>.dv1dv1-dv1{
+    float: left;
+    margin: 15px 22px;
+}
+.dv2{
+    width: 100%;
+    position: relative;
+    background: url(images/body_bg.jpg);
+}
+.dv2>.dv2-dv1{
+    width: 885px;
+    margin: 0 auto;
+}
+.dv2-dv1>ul{
+    float: left;
+    margin-top: 3px;
+}
+.dv2-dv1>ul>li{
+    display:inline-block;
+    padding: 6px 20px;
+
+}
+.dv2-dv1 li:hover{
+    background: white;
+}
+.dv2-dv1 li:hover a{
+    color: #FD7306;
+}
+
+.dv2-dv1 li>a{
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+.dv2>.dv2-dv2{
+    position: absolute;
+    width: 14px;
+    height: 32px;
+    background: url(images/line.jpg) repeat-y;
+    top: 2px;
+    right: 340px;
+}
+.dv2>.dv2-dv3{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    float: right;
+    width: 300px;
+}
+.dv2>.dv2-dv3>ul{
+    float: left;
+}
+.dv2-dv3>ul>li{
+    display:inline-block;
+    padding-top: 11px;
+    padding-right: 15px;
+}
+.dv2-dv3 li>a{
+    color: white;
+}
